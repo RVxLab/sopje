@@ -1,0 +1,8 @@
+[package]
+name = "sopje-test"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+
+[dependencies]
+sopje = { path = "../sopje" }

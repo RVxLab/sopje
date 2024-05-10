@@ -1,0 +1,12 @@
+[package]
+name = "sopje"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = [ "extra-traits" ] }
+quote = "1.0"
